@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 node_modules
 dist
 .env
 .env.local
+=======
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+>>>>>>> dd9644bc6ee210e8c9a70d329c7c7359532edf61

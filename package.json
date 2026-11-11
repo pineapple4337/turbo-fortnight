@@ -10,8 +10,12 @@
   "dependencies": {
     "lucide-react": "^0.468.0",
     "react": "^19.0.0",
+<<<<<<< HEAD
     "react-dom": "^19.0.0",
     "firebase": "^12.0.0"
+=======
+    "react-dom": "^19.0.0"
+>>>>>>> dd9644bc6ee210e8c9a70d329c7c7359532edf61
   },
   "devDependencies": {
     "@types/react": "^19.0.0",

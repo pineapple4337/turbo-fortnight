@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function member() {
+      return request.auth != null &&
+        exists(/databases/$(database)/documents/members/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/members/$(request.auth.uid)).data.active == true;
+    }
+    match /members/{uid} {
+      allow read: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+    match /crm/main/{kind}/{id} {
+      allow read, write: if member() && kind in ['partners', 'cases', 'meetings'];
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "partners": [
+    {
+      "id": "ooopartner-01",
+      "name": "Candy Kingdom Council",
+      "cause": "Youth civic participation and community wellbeing",
+      "contact": "Princess Bubblegum",
+      "email": "",
+      "stage": "In discussion",
+      "alignment": 5,
+      "feasibility": 4,
+      "value": 5,
+      "readiness": 4,
+      "owner": "Finn",
+      "notes": "Potential co-host for a youth town hall on public services and community trust.",
+      "updates": [
+        {
+          "id": "oooupdate-01-1",
+          "date": "2026-10-06",
+          "author": "Finn",
+          "note": "Initial conversation with Princess Bubblegum about youth civic participation and community wellbeing. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        },
+        {
+          "id": "oooupdate-01-2",
+          "date": "2026-11-02",
+          "author": "Princess Bubblegum",
+          "note": "Follow-up: agreed to narrow the scope to a single pilot engagement and identify suitable participants.",
+          "nextAction": "Confirm proposed dates, attendees and responsibilities."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-02",
+      "name": "Fire Kingdom Youth Assembly",
+      "cause": "Climate resilience and inter-kingdom diplomacy",
+      "contact": "Flame Princess",
+      "email": "",
+      "stage": "Outreach sent",
+      "alignment": 5,
+      "feasibility": 3,
+      "value": 4,
+      "readiness": 3,
+      "owner": "Marceline",
+      "notes": "Interested in an inter-kingdom youth dialogue on energy transitions.",
+      "updates": [
+        {
+          "id": "oooupdate-02-1",
+          "date": "2026-10-07",
+          "author": "Marceline",
+          "note": "Initial conversation with Flame Princess about climate resilience and inter-kingdom diplomacy. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-03",
+      "name": "Slime Kingdom Civic League",
+      "cause": "Accessible public spaces and community inclusion",
+      "contact": "Slime Princess",
+      "email": "",
+      "stage": "Lead",
+      "alignment": 4,
+      "feasibility": 4,
+      "value": 3,
+      "readiness": 2,
+      "owner": "Jake",
+      "notes": "Explore a participatory mapping workshop on inclusive public spaces.",
+      "updates": []
+    },
+    {
+      "id": "ooopartner-04",
+      "name": "Breakfast Kingdom Policy Circle",
+      "cause": "Food security and cost of living",
+      "contact": "Breakfast Princess",
+      "email": "",
+      "stage": "In discussion",
+      "alignment": 5,
+      "feasibility": 5,
+      "value": 4,
+      "readiness": 4,
+      "owner": "BMO",
+      "notes": "Possible roundtable on affordability and breakfast access.",
+      "updates": [
+        {
+          "id": "oooupdate-04-1",
+          "date": "2026-10-09",
+          "author": "BMO",
+          "note": "Initial conversation with Breakfast Princess about food security and cost of living. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        },
+        {
+          "id": "oooupdate-04-2",
+          "date": "2026-11-05",
+          "author": "BMO",
+          "note": "Follow-up: agreed to narrow the scope to a single pilot engagement and identify suitable participants.",
+          "nextAction": "Confirm proposed dates, attendees and responsibilities."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-05",
+      "name": "Wizard City Research Institute",
+      "cause": "Education, research and evidence-based policymaking",
+      "contact": "Peppermint Butler",
+      "email": "",
+      "stage": "On hold",
+      "alignment": 4,
+      "feasibility": 2,
+      "value": 5,
+      "readiness": 2,
+      "owner": "Finn",
+      "notes": "Strong research expertise but complicated approvals and unclear availability.",
+      "updates": [
+        {
+          "id": "oooupdate-05-1",
+          "date": "2026-10-10",
+          "author": "Finn",
+          "note": "Initial conversation with Peppermint Butler about education, research and evidence-based policymaking. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-06",
+      "name": "Nightosphere Youth Council",
+      "cause": "Youth mental wellbeing and intergenerational dialogue",
+      "contact": "Hunson Abadeer",
+      "email": "",
+      "stage": "Lead",
+      "alignment": 4,
+      "feasibility": 1,
+      "value": 3,
+      "readiness": 1,
+      "owner": "Marceline",
+      "notes": "Potentially valuable but difficult to coordinate; avoid committing until scope is clear.",
+      "updates": []
+    },
+    {
+      "id": "ooopartner-07",
+      "name": "Tree Fort Community Network",
+      "cause": "Grassroots volunteering and neighbourhood engagement",
+      "contact": "Jake",
+      "email": "",
+      "stage": "Active partner",
+      "alignment": 5,
+      "feasibility": 5,
+      "value": 4,
+      "readiness": 5,
+      "owner": "Finn",
+      "notes": "Existing friendly relationship; suited to small-scale pilot activities.",
+      "updates": [
+        {
+          "id": "oooupdate-07-1",
+          "date": "2026-10-12",
+          "author": "Finn",
+          "note": "Initial conversation with Jake about grassroots volunteering and neighbourhood engagement. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        },
+        {
+          "id": "oooupdate-07-2",
+          "date": "2026-11-08",
+          "author": "Princess Bubblegum",
+          "note": "Follow-up: agreed to narrow the scope to a single pilot engagement and identify suitable participants.",
+          "nextAction": "Confirm proposed dates, attendees and responsibilities."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-08",
+      "name": "Cloud Kingdom Accessibility Forum",
+      "cause": "Transport accessibility and equitable mobility",
+      "contact": "Cloud Princess",
+      "email": "",
+      "stage": "In discussion",
+      "alignment": 4,
+      "feasibility": 3,
+      "value": 4,
+      "readiness": 3,
+      "owner": "BMO",
+      "notes": "Explore youth feedback sessions on cloud transport accessibility.",
+      "updates": [
+        {
+          "id": "oooupdate-08-1",
+          "date": "2026-10-13",
+          "author": "BMO",
+          "note": "Initial conversation with Cloud Princess about transport accessibility and equitable mobility. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        },
+        {
+          "id": "oooupdate-08-2",
+          "date": "2026-11-09",
+          "author": "BMO",
+          "note": "Follow-up: agreed to narrow the scope to a single pilot engagement and identify suitable participants.",
+          "nextAction": "Confirm proposed dates, attendees and responsibilities."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-09",
+      "name": "Lumpy Space Civic Society",
+      "cause": "Youth representation and digital inclusion",
+      "contact": "Lumpy Space Princess",
+      "email": "",
+      "stage": "Outreach sent",
+      "alignment": 4,
+      "feasibility": 3,
+      "value": 3,
+      "readiness": 2,
+      "owner": "Jake",
+      "notes": "Informal network with strong youth reach; define roles before collaborating.",
+      "updates": [
+        {
+          "id": "oooupdate-09-1",
+          "date": "2026-10-14",
+          "author": "Jake",
+          "note": "Initial conversation with Lumpy Space Princess about youth representation and digital inclusion. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-10",
+      "name": "Ice Kingdom Heritage Office",
+      "cause": "Cultural heritage and ageing communities",
+      "contact": "Ice King",
+      "email": "",
+      "stage": "Closed",
+      "alignment": 3,
+      "feasibility": 2,
+      "value": 2,
+      "readiness": 1,
+      "owner": "Marceline",
+      "notes": "Previous idea for heritage storytelling event did not progress.",
+      "updates": [
+        {
+          "id": "oooupdate-10-1",
+          "date": "2026-10-15",
+          "author": "Marceline",
+          "note": "Initial conversation with Ice King about cultural heritage and ageing communities. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        }
+      ]
+    },
+    {
+      "id": "ooopartner-11",
+      "name": "Wildberry Kingdom Sustainability Lab",
+      "cause": "Urban agriculture and environmental education",
+      "contact": "Wildberry Princess",
+      "email": "",
+      "stage": "Lead",
+      "alignment": 4,
+      "feasibility": 4,
+      "value": 4,
+      "readiness": 2,
+      "owner": "BMO",
+      "notes": "Possible hands-on policy lab on local food resilience.",
+      "updates": []
+    },
+    {
+      "id": "ooopartner-12",
+      "name": "Duchy of Nuts Student Forum",
+      "cause": "Education access and youth leadership",
+      "contact": "Duke of Nuts",
+      "email": "",
+      "stage": "Active partner",
+      "alignment": 5,
+      "feasibility": 4,
+      "value": 4,
+      "readiness": 5,
+      "owner": "Finn",
+      "notes": "Collaborated on a student consultation; explore follow-up publication.",
+      "updates": [
+        {
+          "id": "oooupdate-12-1",
+          "date": "2026-10-17",
+          "author": "Finn",
+          "note": "Initial conversation with Duke of Nuts about education access and youth leadership. Discussed possible collaboration formats and MAJU's role.",
+          "nextAction": "Share a one-page concept note and ask for feedback."
+        },
+        {
+          "id": "oooupdate-12-2",
+          "date": "2026-11-04",
+          "author": "BMO",
+          "note": "Follow-up: agreed to narrow the scope to a single pilot engagement and identify suitable participants.",
+          "nextAction": "Confirm proposed dates, attendees and responsibilities."
+        }
+      ]
+    }
+  ],
+  "meetings": [
+    {
+      "id": "oooengagement-01",
+      "partnerId": "ooopartner-01",
+      "title": "Candy Kingdom youth policy roundtable",
+      "date": "2026-11-19T15:00",
+      "location": "Candy Castle conference hall",
+      "attendees": "Finn, Jake, Princess Bubblegum",
+      "objective": "Discuss a joint youth consultation on access to public services.",
+      "status": "Scheduled"
+    },
+    {
+      "id": "oooengagement-02",
+      "partnerId": "ooopartner-04",
+      "title": "Breakfast affordability workshop planning",
+      "date": "2026-11-23T10:30",
+      "location": "Breakfast Kingdom community centre",
+      "attendees": "BMO, Finn, Breakfast Princess",
+      "objective": "Agree on workshop format, target participants and key policy questions.",
+      "status": "Scheduled"
+    },
+    {
+      "id": "oooengagement-03",
+      "partnerId": "ooopartner-07",
+      "title": "Tree Fort community pilot review",
+      "date": "2026-11-27T17:00",
+      "location": "Tree Fort",
+      "attendees": "Jake, Finn",
+      "objective": "Review lessons from the volunteer pilot and decide next steps.",
+      "status": "Scheduled"
+    },
+    {
+      "id": "oooengagement-04",
+      "partnerId": "ooopartner-08",
+      "title": "Cloud transport accessibility scoping",
+      "date": "2026-12-03T14:00",
+      "location": "Cloud Kingdom (online link TBC)",
+      "attendees": "BMO, Marceline, Cloud Princess",
+      "objective": "Scope a youth accessibility feedback exercise.",
+      "status": "Scheduled"
+    },
+    {
+      "id": "oooengagement-05",
+      "partnerId": "ooopartner-02",
+      "title": "Fire Kingdom introductory call",
+      "date": "2026-12-08T16:00",
+      "location": "Online",
+      "attendees": "Marceline, Flame Princess",
+      "objective": "Explore a youth climate dialogue and partnership feasibility.",
+      "status": "Scheduled"
+    },
+    {
+      "id": "oooengagement-06",
+      "partnerId": "ooopartner-12",
+      "title": "Duchy of Nuts student consultation debrief",
+      "date": "2026-10-29T11:00",
+      "location": "Duchy of Nuts library",
+      "attendees": "Finn, Duke of Nuts",
+      "objective": "Review student consultation findings and publication options.",
+      "status": "Completed"
+    },
+    {
+      "id": "oooengagement-07",
+      "partnerId": "ooopartner-05",
+      "title": "Wizard City research proposal discussion",
+      "date": "2026-10-16T13:00",
+      "location": "Wizard City",
+      "attendees": "Finn, Peppermint Butler",
+      "objective": "Assess research support for a youth policy brief.",
+      "status": "Completed"
+    }
+  ]
+}

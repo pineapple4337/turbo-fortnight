@@ -32,3 +32,9 @@ The Vite base URL is calculated from the GitHub repository name in the workflow.
 - Any approved member can edit or delete all records and import/replace shared data. Keep JSON backups and restrict who is approved.
 - Do not enable public anonymous access or publish permissive Firestore rules.
 - Test with fictional data before entering real partner contacts or sensitive notes.
+
+## Deployment troubleshooting
+
+This release includes `src/vite-env.d.ts` to type `import.meta.env`. The GitHub workflow uses `npm install` without requiring a lock file, so the earlier missing-lock-file failure should not recur. For reproducible installs, you can later run `npm install` locally and commit `package-lock.json`.
+
+**Replacing an existing repository:** copy the **contents** of this folder into your existing Git working directory, removing obsolete tracked source files as needed, then run `git add -A`, `git commit -m "Update MAJU CRM"`, `git push`. Do not copy an old `.git` directory from another project. If a prior merge left conflict markers, check `git grep -n -E '^(<<<<<<< |=======|>>>>>>> )'` before committing.

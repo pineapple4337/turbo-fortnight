@@ -38,3 +38,11 @@ The Vite base URL is calculated from the GitHub repository name in the workflow.
 This release includes `src/vite-env.d.ts` to type `import.meta.env`. The GitHub workflow uses `npm install` without requiring a lock file, so the earlier missing-lock-file failure should not recur. For reproducible installs, you can later run `npm install` locally and commit `package-lock.json`.
 
 **Replacing an existing repository:** copy the **contents** of this folder into your existing Git working directory, removing obsolete tracked source files as needed, then run `git add -A`, `git commit -m "Update MAJU CRM"`, `git push`. Do not copy an old `.git` directory from another project. If a prior merge left conflict markers, check `git grep -n -E '^(<<<<<<< |=======|>>>>>>> )'` before committing.
+
+## CSV importer (v0.6)
+
+Click **Import CSV** in the workspace toolbar. Export a Google Sheet with **File → Download → Comma-separated values (.csv)**. Choose whether the rows represent organisations, cases, discussion updates, or engagements. Map CSV columns to CRM fields, review the preview and validation messages, then click **Import records**. The import adds records to the current workspace; existing organisations/cases with the same name are updated without clearing unrelated records. For cases, updates and engagements, import organisations first, then cases, then updates and engagements. Names are matched case-insensitively.
+
+**Download mapped JSON** saves an intermediate `{csvImport:{kind,records}}` mapping file for inspection; it is *not* the normal full CRM backup format. To back up the actual shared CRM data, use **Export** in the main toolbar. Discussion updates and engagements are appended on each import; importing the same CSV twice duplicates them. Export a backup before every bulk import. The CSV importer works in both local and Firestore modes, and uses the current member's existing access permissions.
+
+The CSV parser handles Google Sheets-style quoted commas, double quotes and embedded line breaks. Maximum 5 MB or 5,000 records per CSV. The conversion happens in your browser; the selected file is not sent to an external conversion service.
